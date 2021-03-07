@@ -1,0 +1,125 @@
+
+.title{
+
+  color: white;
+  
+  padding-left: 20em;
+  font-style: oblique;
+  font-size:x-large;
+  align-items: center;
+}
+.t1{
+  font-family: cursive;
+  text-align: center;
+  font: size 10em;;
+  padding-top: 1em;
+  letter-spacing: 0.5em;
+  
+}
+a{
+  text-decoration: none;
+}
+.navv{
+  display: -webkit- flex;
+  display:-moz- flex;
+  display: -ms- flex;
+  display:-o- flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    padding: 3em 30em; 
+  padding-left: 17em;
+  padding-top: 5em;
+  height: 10em;
+}
+/* .nav-area{
+  list-style: none;
+
+}  */
+ .nav-area li {
+  display: inline-block;
+  padding: 0 20px;
+  text-transform: uppercase;}
+
+ 
+ .nav-area li a {
+  
+  color:rgb(14, 13, 13);
+} 
+ .nav-area li a:hover {
+  color:pink
+  
+}   
+.bg{
+  background-image: url("https://images.unsplash.com/photo-1614688563870-731b9af565e6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30em;
+}
+.t2{
+  font-family: cursive;
+  text-align: center;
+  font: size 10em;;
+  padding-top: 1em;
+  letter-spacing: 0.5em;
+  padding-top: 5em;
+  border: radius 2px; 
+  border-color: blue;
+}
+.card-container{
+  width: 300px;
+ 
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  transition: 0.3s;
+  animation: ease-in;
+}
+.image-container img {
+  overflow: hidden;
+  height: 200px;
+}
+.card-container:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+}
+.card-content{
+  margin-left: 3em;
+  margin: 0.5rem;
+   margin-top: 3rem; 
+}
+h3,p{
+  margin:0;
+  padding: 0;
+}
+.card-title{
+  margin-bottom: 0.5rem;
+  font-family: cursive;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+}
+.btn button{
+  padding: 00.5rem;
+  background-color:white;
+  border: none;
+  transition: 0.2s;
+  margin-bottom: 00.5rem;
+  border-radius: 3px;
+  
+}
+
+.btn:hover{
+  background: rgb(22, 156, 252,0.1);
+}
+a{
+  text-transform: uppercase;
+  color: aquamarine;
+  text-decoration: none;
+  font-weight: bold;
+}
+.fflex{
+  display: flex;
+  justify-content: center;
+}
